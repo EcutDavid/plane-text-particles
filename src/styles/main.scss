@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #b7eaff 0%, #94dfff 100%);
+
+  p {
+    margin-top: 20px;
+  }
+}
